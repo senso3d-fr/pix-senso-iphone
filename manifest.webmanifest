@@ -1,0 +1,16 @@
+{
+  "name": "Pix-Senso — Générateur de modèles",
+  "short_name": "Pix-Senso",
+  "description": "Crée des modèles Pix-Senso, prépare des grilles et imprime tes fiches d'activité.",
+  "lang": "fr-FR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eef2f5",
+  "theme_color": "#25364A",
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

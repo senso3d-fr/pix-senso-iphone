@@ -1,0 +1,22 @@
+# Pix-Senso pour iPhone — version web indépendante
+
+Cette version est préparée à partir du générateur inclus dans le projet Android fourni. Elle conserve le générateur HTML et ajoute une présentation adaptée aux petits écrans, les métadonnées d'installation iOS/PWA et un cache hors ligne.
+
+## Publication gratuite avec GitHub Pages
+1. Créer un **nouveau dépôt GitHub** (ne pas remplacer le dépôt Android), par exemple `pix-senso-iphone`.
+2. Décompresser ce dossier puis téléverser tous les fichiers et le dossier `icons` à la racine du nouveau dépôt.
+3. Dans **Settings → Pages**, choisir **Deploy from a branch**, sélectionner `main` et `/ (root)`, puis enregistrer.
+4. Attendre que GitHub affiche l'adresse Pages du nouveau dépôt.
+5. Ouvrir cette adresse dans Safari sur l'iPhone, toucher **Partager** puis **Sur l'écran d'accueil** et confirmer.
+
+## À tester sur iPhone
+- Création manuelle, sélection des couleurs et gomme.
+- Grille aléatoire et options.
+- Stock, correspondances, solutions et autres fiches.
+- Impression : dans Safari, utiliser le bouton d'impression; selon la version d'iOS, l'option PDF peut se trouver dans la feuille de partage/impression.
+- Mode hors ligne : ouvrir l'application une première fois avec Internet, puis vérifier après chargement complet.
+
+## Important
+- Ce dossier est distinct du projet Android et ne modifie pas le générateur existant.
+- Il s'agit d'un prototype prêt à publier, pas encore d'un site public : il faut le publier sur GitHub Pages avant de pouvoir l'installer depuis Safari.
+- L'impression PDF doit être validée sur un véritable iPhone; `window.print()` et les options PDF peuvent varier selon iOS.
